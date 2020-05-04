@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="All about Pacific Trails Resorts, a fun and unique way to spend your vacation! Live in a yurt! Go Kayaking! Watch planes soar by!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+    <h1>Pacific Trails Resort</h1>
+</header>
+<nav>
+    <A href="index.html">Home</A>    <A HREF="Yurts.html">Yurts</A>    <A href="Activites.html">Activities</A>     <a href="Reservations.html">Reservations</a>
+</nav>
+<main>
+<h2 class="subhead">Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+
+    <form name="form" method="post" id="form" action="http://webdevbasics.net/scripts/pacific.php">
+        <label for="MyFName">*Name (first):</label><input  type="text" name="MyFName" id="MyFName" required="required" >
+        <label for="MyLName">*Name (Last): </label> <input type="text" name="MyLName" id="MyLName" required="required" >
+        <label for="MyEmail">*Email: </label> <input type="email" name="MyEmail" id="MyEmail" required="required" size="35">
+        <label for="MyEmail">Phone: </label> <input type="tel" name="MyPhone" id="MyPhone" maxlength="12">
+        <label for="MyComments">*Comments: </label> <textarea rows="2" cols="30"  id="MyComments" name="MyComments" required="required" ></textarea>
+        <label>Arrival Date</label><input type="date">
+        <label>Nights</label><input type="number" min="1" max="14">
+        <input type="submit">
+    </form>
+    <div>
+
+        <span class="resort">Pacific Trails Resort</span> <br>
+        123 Ridgeway Drive <br>
+        Ocean Ridge, CA <br>
+        <span class="contactid"><a id="mobile" href="tel:888-555-5555">888-555-5555</a> </span> <br>
+
+
+    </div>
+</main>
+
+<br>
+<br>
+<footer>
+    copyright Trevor Ladwig 2020 <br> TLADWIG3@my.wctc.edu
+</footer>
+</div>
+</body>
+</html>
